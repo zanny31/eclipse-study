@@ -119,6 +119,19 @@ Artifact 설명
 4. 실행 가능한 JAR 파일은 META-INF/MANIFEST.MF 파일에 주 클래스를 명시해야 함
 
 
+
+- 배포 방식 (예시)
+  - war (spring)
+    1. 실행 환경을 제공하는 서버에 Tomcat 설치
+    2. Spring 프레임워크에서 만든 프로젝트를 WAR 파일로 빌드
+    3. 빌드된 WAR 파일을 Tomcat의 webapps 디렉토리에 배포 
+
+  - jar (spring boot)
+    1. Spring Boot 프레임워크에서 만든 프로젝트를 JAR 파일로 빌드
+    2. 실행 환경을 제공하는 서버에 JAR 파일 배포
+    3. JAR 파일 내부에 포함된 내장 톰캣을 통해 애플리케이션 실행
+    
+
 ```
 ✅ 내 맘대로 정리하기
 
