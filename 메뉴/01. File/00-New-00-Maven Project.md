@@ -10,10 +10,10 @@
 
 # File 메뉴 
 
-![alt text](image-2.png)
+![alt text](img/image-2.png)
 
 ## New 
-![alt text](image-4.png)
+![alt text](img/image-4.png)
 
 1. Java 요소 또는 새 리소스를 생성 
 2. Java 관점에서는 기본적으로 프로젝트, 패키지, 클래스 등을 만들기 위한 작업을 사용 가능 
@@ -27,7 +27,7 @@ Maven을 사용해 의존성 관리 및 빌드 자동화를 수행하는 프로�
 4. Maven은 프로젝트 빌드 시 플러그인(Plugin)을 사용 
 
 4. Help > About Eclipse IDE 클릭할 경우 Maven 버전 확인 가능 (이클립스 IDE는 Maven을 내장된 플러그인 형태로 제공)
-    ![alt text](image-3.png)
+    ![alt text](img/image-3.png)
 
 5. Create Maven Project 할 경우 상황에 따른 설정 ->  Artifact 정보 기입 -> finish 
 
@@ -83,7 +83,7 @@ Maven을 사용해 의존성 관리 및 빌드 자동화를 수행하는 프로�
   
 - **Packaging**
    
-    ![alt text](image-5.png)
+    ![alt text](img/image-5.png)
 1. 프로젝트의 패키징 방식 
 2. jar (Java Archive)는 여러 개의 자바 클래스나 리소스, 메타 데이터 등을 하나의 파일로 압축 
 3. pom (project object model)은 
